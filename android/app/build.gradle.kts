@@ -42,6 +42,7 @@ android {
         release {
             signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = false
+            isShrinkResources = false
             // You can add proguard files or other release options here
         }
     }
